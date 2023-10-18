@@ -27,9 +27,23 @@ export default function Home() {
 						mt-4
 					"
 				>
-					<ListItem />
+					<ListItem
+						image="/images/liked.png"
+						name="Liked Songs"
+						href="liked"
+					/>
 				</div>
 			</Header>
+			<div className="mt-2 mb-7 px-6">
+				<div className="flex justify-between items-center">
+					<h1 className="text-white text-2xl font-semibold">
+						newest songs
+					</h1>
+				</div>
+				<div>
+					List of songs
+				</div>
+			</div>
 		</div>
 	);
 }
